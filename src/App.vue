@@ -1,6 +1,6 @@
 <template>
    
-   <div style="width: 100%; height: 100%;">
+   <div style="width: 100%; height: 100%; background-color: red" >
 
       <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -37,7 +37,7 @@
           </form>
         </div>
       </nav> -->
-      <div class="container-fluid d-flex h-100" style="height: 100%">
+      <div class="container-fluid d-flex h-100" style="position: absolute; background-color: #2e2e2e">
         <Graficas />
       </div>
 
@@ -47,13 +47,11 @@
 </template>
 
 <script>
-import Chat from './components/Chat.vue'
 import Graficas from './components/Graficas'
 
 export default {
   name: 'app',
   components: {
-    Chat, 
     Graficas,
   }
 }
