@@ -1,4 +1,6 @@
-# ingresos
+# Gráficas de Ingresos - SAP
+
+Proyecto desarrollado en Vue para el manejo de las gráficas de ingresos de la dirección, pero con una conexión directa a SAP mediante el uso de RFC.
 
 ## Project setup
 ```
